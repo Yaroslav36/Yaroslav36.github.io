@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.block{
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(to left, rgb(3, 3, 95), rgb(169, 14, 14));
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: all 0.5s ease;
+}
+.main{
+    width: 500px;
+}
+.anim1:hover{
+    box-shadow: 0 0 0 20px rgb(78, 78, 250) inset;
+    
+}

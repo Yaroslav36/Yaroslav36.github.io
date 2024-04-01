@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient( to left, rgb(183, 16, 183), #2020dc);
+    
+}
+p{
+    color: white;
+    font-size: 19px;
+    font-family: comic sans ms;
+}
+H1{
+    color: white;
+    font-family: arial black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
