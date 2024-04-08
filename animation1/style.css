@@ -21,5 +21,46 @@ body{
 }
 .anim1:hover{
     box-shadow: 0 0 0 20px rgb(78, 78, 250) inset;
-    
+}
+.anim2{
+    opacity: 0.1;
+}
+.anim2:hover{
+    opacity: 1;
+}
+.anim3:hover{
+    transform: scale(1.1);
+}
+.anim4:hover{
+    border-radius: 95px;
+    width: 480px;
+}
+.anim5:hover{
+    transform: rotateZ(20deg);
+    margin: 80px auto;
+}
+p{
+    animation: flip 0.5s linear 0.5s infinite ;
+}
+@keyframes flip {
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+.anim7{
+    animation: neznau 10s ease 0s 1488 alternate;
+}
+@keyframes neznau {
+    38%{
+        opacity: 0;  
+    }
+    58%{
+        transform: scale(2);
+    }
+    77%{
+        transform: rotateZ(90deg);
+    }
+    100%{
+        transform: skew(10deg, 5deg);
+    }
 }
