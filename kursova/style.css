@@ -1,0 +1,81 @@
+.menu{
+    background: rgb(155, 156, 165);
+    width: 1543px;
+    height: 55px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+body{
+    margin: 20px 20px;
+}
+.menu_buttons{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 1s ease 0s;
+    font-family: century gothic;
+}
+.menu_button{
+    width: 100px;
+    height: 42px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-radius: 10px;
+    transition: 1s ease 0s;
+}
+.forth{
+    width: 113px;
+    height: 42px;
+}
+.menu_button:hover{
+    width: 95px;
+    height: 35px;
+    border: 2px solid orange;
+}
+.menu_buttons:hover{
+    color: orange;
+    font-size: 14px;
+}
+.first{
+    width: 95px;
+    height: 35px;
+    border: 2px solid orange;
+}
+.index{
+    color: orange;
+    font-size: 15px;
+}
+.zah{
+    width: 1543px;
+    height: 400px;
+    background: url('https://www.shutterstock.com/image-illustration/basketball-banner-background-600nw-1287028426.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zah_text{
+    font-size: 123px;
+    font-family: century gothic;
+    color: white;
+}
+.text{
+    width: 1513px;
+    background: rgb(155, 156, 165);
+    color: white;
+    font-size: 17px;
+    font-family: century gothic;
+    padding: 15px;
+}
+.p1{
+    border-radius: 50%;
+    width: 290px;
+    height: 290px;
+}
