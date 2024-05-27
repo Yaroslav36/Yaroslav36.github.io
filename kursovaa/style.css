@@ -1,0 +1,397 @@
+.menu{
+    background: rgb(155, 156, 165);
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+body{
+    margin: 1% 3%;
+}
+.menu_buttons{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 1s ease 0s;
+    font-family: century gothic;
+}
+.menu_button{
+    width: 100px;
+    height: 42px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-radius: 10px;
+    transition: 1s ease 0s;
+}
+.forth{
+    width: 113px;
+    height: 42px;
+}
+.menu_button:hover{
+    width: 95px;
+    height: 35px;
+    border: 2px solid orange;
+}
+.menu_buttons:hover{
+    color: orange;
+    font-size: 14px;
+}
+.first{
+    width: 95px;
+    height: 35px;
+    border: 2px solid orange;
+}
+.indexx{
+    font-size: 13px;
+    color: orange;
+}
+.index{
+    color: orange;
+    font-size: 15px;
+}
+.zah{
+    width: 100%;
+    height: 400px;
+    background: url('https://www.shutterstock.com/image-illustration/basketball-banner-background-600nw-1287028426.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zah_text{
+    font-size: 123px;
+    font-family: century gothic;
+    color: white;
+}
+.text_main{
+    width: 98%;
+    background: rgb(155, 156, 165);
+    color: white;
+    font-size: 19px;
+    font-family: century gothic;
+    height: 400px;
+    margin: 0;
+}
+.text{
+        width: 100%;
+        display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(155, 156, 165);
+    height: 400px;
+}
+.p1{
+    border-radius: 50%;
+    width: 290px;
+    height: 290px;
+}
+.zah_page2{
+    width: 100%;
+    height: 550px;
+    background: rgb(176, 178, 199);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text_text{
+    margin: 0;
+}
+.zah_page2_text{
+    color: orange;
+    font-family: century gothic;
+    font-size: 90px;
+}
+.jn{
+    border: 2px solid orange;
+    width: 250px;
+    height: 220px;
+}
+.img_page2{
+    height: 400px;
+    width: 400px;
+    border: 4px solid orange;
+}
+.romashka{
+    width: 250px;
+    height: 220px;
+}
+.bilyy{
+    width: 1000px;
+}
+.autor{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.history{
+    font-size: 52px;
+    color: orange;
+}
+.text_nomer_dva{
+    background-color: rgb(155, 156, 165);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text_vseredyni{
+    background-color: rgb(155, 156, 165);
+    width: 98%;
+    color: white;
+    font-size: 20px;
+    font-family: century gothic;
+    margin-top: 30px;
+}
+.text_in_kvitka{
+    display: flex;
+    justify-content: space-around;
+}
+.img_in_kvitka{
+    width: 250px;
+    height: 220px;
+}
+.t{
+    width: 230px;
+    height: 290px;
+    border: 2px solid orange;
+}
+.bilyyl{
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.kvitka{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 315px;
+}
+.zah_page3{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(162, 166, 197);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.zah3_img{
+    width: 360px;
+    height: 390px;
+    border: 2px solid orange;
+    border-radius: 15px;
+}
+.gh{
+    font-size: 80px;
+    font-family: HELVETICA;
+    color: orange;
+}
+.text_page3{
+    background: rgb(141, 150, 206);
+    color: white;
+    font-size: 18px;
+    font-family: century gothic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_in_text{
+    width: 92%;
+    margin: 4% 4%;
+}
+.no_margin{
+    margin: 0;
+}
+.img1_page3{
+    background: white;
+    border-radius: 10px;
+    margin: 15px 15px;
+    margin-right: 0;
+    margin-top: 0;
+    border: 2px solid orange;
+}
+.img2_page3{
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin: 15px 15px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.img3_page3{
+    width: 320px;
+    height: 230px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin: 15px 15px;
+    margin-right: 0;
+    margin-top: 0;
+}
+.zah_img_page5{
+    width: 360px;
+    height: 360px;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+.text1_page5{
+    background: rgb(140, 148, 180);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+.text_margin{
+    color: white;
+    font-family: century gothic;
+    font-size: 18px;
+    width: 1085px;
+}
+.img_in_text_5page{
+    width: 250px;
+    height: 280px;
+}
+.h{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 98%;
+}
+.maintext_page5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 166, 197);
+}
+.textintext{
+    width: 97%;
+    background-color: rgb(162, 166, 197);
+    color: white;
+    font-family: century gothic;
+    font-size: 18px;
+}
+.oh1{
+    color: rgb(196, 133, 16);
+}
+.big_text{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.za{
+    width: 90%;
+}
+.tt{
+    width: 75%;
+}
+.persha{
+    width: 262px;
+    height: 212px;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+.ttt{
+    width: 97%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nba{
+    height: 290px;
+    width: 380px;
+    border: 2px solid orange;
+    border-radius: 10px;
+
+}
+.zah4{
+    background: url('https://ichef.bbci.co.uk/images/ic/1200x675/p0hh65h6.jpg');
+    width: 100%;
+    height: 435px;
+    background-position: center;
+}
+.txt_zh{
+    background-color: rgb(141, 150, 206);
+    width: 100%;
+    height: 68px;
+    font-family: century gothic;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.znm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(122, 134, 221);
+}
+.text_in_znm{
+    width: 96%;
+    background-color: rgb(122, 134, 221);
+    color: white;
+    font-family: century gothic;
+    font-size: 18px;
+}
+.brayant{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tkb{
+    width: 68%;
+}
+.michel{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.nbaa{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.video_block{
+    display: flex;
+    justify-content: space-evenly;
+}
+.stef{
+    width: 262px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: rgb(199, 96, 0);
+
+}
+.mjj{
+    height: 210px;
+    width: 190px;
+}
+.text_at{
+    width: 80%;
+}
+.at{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.img_at{
+    margin-top: 45px;
+}
+.mjj{
+    border: 2px solid orange;
+    border-radius: 10px;
+}
